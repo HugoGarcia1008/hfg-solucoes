@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HFG Soluções | Tecnologia, Inovação e Resultados</title>
+  <meta name="description" content="Software, sistemas, sites e soluções de TI sob medida para pequenos negócios. Transforme sua empresa com a HFG Soluções." />
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpeg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="brand">
+        <img src="assets/logo.jpeg" alt="HFG Soluções" class="brand__logo" />
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#servicos">Serviços</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#processo">Processo</a>
+        <a href="#contato" class="nav__cta">Fale Conosco</a>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero__grid"></div>
+      <div class="container hero__inner">
+        <p class="eyebrow" data-aos>TECNOLOGIA · INOVAÇÃO · RESULTADOS</p>
+        <h1 class="hero__title" data-aos>
+          Soluções de <span class="text-gradient">TI</span> que impulsionam
+          <span class="text-gradient">pequenos negócios</span>
+        </h1>
+        <p class="hero__subtitle" data-aos>
+          Desenvolvemos sites, sistemas e softwares sob medida para
+          transformar a operação da sua empresa com tecnologia de ponta,
+          acessível e orientada a resultados reais.
+        </p>
+        <div class="hero__actions" data-aos>
+          <a href="#contato" class="btn btn--primary">Solicitar Orçamento</a>
+          <a href="#servicos" class="btn btn--ghost">Ver Soluções</a>
+        </div>
+
+        <div class="hero__stats" data-aos>
+          <div class="stat">
+            <span class="stat__num" data-count="100">0</span><span>%</span>
+            <p>Soluções sob medida</p>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-count="24">0</span><span>/7</span>
+            <p>Suporte dedicado</p>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-count="360">0</span><span>°</span>
+            <p>Atendimento completo</p>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator"><span></span></div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="services" id="servicos">
+      <div class="container">
+        <p class="section-tag" data-aos>O QUE FAZEMOS</p>
+        <h2 class="section-title" data-aos>Soluções completas em tecnologia</h2>
+        <p class="section-desc" data-aos>
+          Da ideia ao sistema em produção: cuidamos de cada etapa para que
+          seu negócio tenha a tecnologia certa, sem complicação.
+        </p>
+
+        <div class="cards-grid">
+          <article class="card" data-aos>
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0L19.2 12l-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
+            </div>
+            <h3>Desenvolvimento de Sites</h3>
+            <p>Sites institucionais, landing pages e e-commerces rápidos, responsivos e otimizados para conversão.</p>
+          </article>
+
+          <article class="card" data-aos>
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h10v2H4z"/></svg>
+            </div>
+            <h3>Sistemas Sob Medida</h3>
+            <p>Sistemas de gestão, ERPs simplificados e automações criadas especialmente para o seu fluxo de trabalho.</p>
+          </article>
+
+          <article class="card" data-aos>
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2l9 4.5v9L12 20l-9-4.5v-9L12 2zm0 2.2L5 7.6v6.8l7 3.4 7-3.4V7.6l-7-3.4z"/></svg>
+            </div>
+            <h3>Softwares Personalizados</h3>
+            <p>Aplicações desktop e web desenhadas para resolver problemas específicos da sua operação.</p>
+          </article>
+
+          <article class="card" data-aos>
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2a5 5 0 0 1 5 5v3h1a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h1V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v3h6V7a3 3 0 0 0-3-3z"/></svg>
+            </div>
+            <h3>Infraestrutura &amp; Segurança de TI</h3>
+            <p>Consultoria, redes, backups e segurança de dados para manter seu negócio protegido e online.</p>
+          </article>
+
+          <article class="card" data-aos>
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.998.998 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88v9z"/></svg>
+            </div>
+            <h3>Consultoria em TI</h3>
+            <p>Diagnóstico tecnológico e plano de ação para digitalizar processos e reduzir custos operacionais.</p>
+          </article>
+
+          <article class="card" data-aos>
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 14H4V8h16v10z"/></svg>
+            </div>
+            <h3>Suporte &amp; Manutenção</h3>
+            <p>Acompanhamento contínuo, atualizações e suporte ágil para que sua solução nunca pare de funcionar.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIFERENCIAIS -->
+    <section class="diferenciais" id="diferenciais">
+      <div class="container diferenciais__inner">
+        <div class="diferenciais__visual" data-aos>
+          <div class="orbit-wrap">
+            <div class="orbit orbit--1"></div>
+            <div class="orbit orbit--2"></div>
+            <div class="orbit orbit--3"></div>
+            <img src="assets/logo.jpeg" alt="HFG Soluções" class="orbit-logo" />
+          </div>
+        </div>
+
+        <div class="diferenciais__content">
+          <p class="section-tag" data-aos>POR QUE A HFG</p>
+          <h2 class="section-title" data-aos>Tecnologia de ponta com preço de pequeno negócio</h2>
+
+          <ul class="checklist">
+            <li data-aos><span class="check">✓</span> Soluções pensadas para o orçamento de micro e pequenas empresas</li>
+            <li data-aos><span class="check">✓</span> Entrega ágil, com prazos e escopo transparentes</li>
+            <li data-aos><span class="check">✓</span> Tecnologias modernas e código de qualidade</li>
+            <li data-aos><span class="check">✓</span> Suporte direto, sem burocracia, com quem desenvolveu seu projeto</li>
+            <li data-aos><span class="check">✓</span> Foco total em resultado: mais vendas, mais eficiência, menos custo</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESSO -->
+    <section class="processo" id="processo">
+      <div class="container">
+        <p class="section-tag" data-aos>COMO TRABALHAMOS</p>
+        <h2 class="section-title" data-aos>Do briefing à entrega, em 4 etapas</h2>
+
+        <div class="timeline">
+          <div class="timeline__item" data-aos>
+            <span class="timeline__num">01</span>
+            <h3>Diagnóstico</h3>
+            <p>Entendemos sua necessidade, seu negócio e seus objetivos.</p>
+          </div>
+          <div class="timeline__item" data-aos>
+            <span class="timeline__num">02</span>
+            <h3>Planejamento</h3>
+            <p>Definimos escopo, tecnologias e cronograma do projeto.</p>
+          </div>
+          <div class="timeline__item" data-aos>
+            <span class="timeline__num">03</span>
+            <h3>Desenvolvimento</h3>
+            <p>Construímos sua solução com checkpoints de validação constantes.</p>
+          </div>
+          <div class="timeline__item" data-aos>
+            <span class="timeline__num">04</span>
+            <h3>Entrega &amp; Suporte</h3>
+            <p>Lançamos o projeto e seguimos ao seu lado com suporte contínuo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-banner">
+      <div class="container cta-banner__inner" data-aos>
+        <h2>Pronto para levar seu negócio para o próximo nível?</h2>
+        <p>Fale agora com a HFG Soluções e receba uma proposta personalizada.</p>
+        <a href="#contato" class="btn btn--primary">Quero Minha Solução</a>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contato" id="contato">
+      <div class="container contato__inner">
+        <div class="contato__info" data-aos>
+          <p class="section-tag">FALE CONOSCO</p>
+          <h2 class="section-title">Vamos construir sua solução</h2>
+          <p class="section-desc">
+            Conte um pouco sobre seu negócio e retornaremos com uma proposta
+            sob medida.
+          </p>
+
+          <div class="contato__item">
+            <strong>E-mail</strong>
+            <span>contato@hfgsolucoes.com.br</span>
+          </div>
+          <div class="contato__item">
+            <strong>WhatsApp</strong>
+            <span>(11) 90000-0000</span>
+          </div>
+          <div class="contato__item">
+            <strong>Atendimento</strong>
+            <span>Segunda a sexta, 9h às 18h</span>
+          </div>
+        </div>
+
+        <form class="contato__form" id="contact-form" data-aos>
+          <div class="form-row">
+            <label>Nome</label>
+            <input type="text" name="nome" placeholder="Seu nome" required />
+          </div>
+          <div class="form-row">
+            <label>E-mail</label>
+            <input type="email" name="email" placeholder="seu@email.com" required />
+          </div>
+          <div class="form-row">
+            <label>Serviço de interesse</label>
+            <select name="servico">
+              <option>Site institucional / E-commerce</option>
+              <option>Sistema sob medida</option>
+              <option>Software personalizado</option>
+              <option>Infraestrutura / Segurança de TI</option>
+              <option>Consultoria em TI</option>
+              <option>Outro</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label>Mensagem</label>
+            <textarea name="mensagem" rows="4" placeholder="Conte sobre seu projeto..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Enviar Mensagem</button>
+          <p class="form-success" id="form-success">Mensagem pronta! Em breve nossa equipe entrará em contato.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/logo.jpeg" alt="HFG Soluções" />
+        <p>Tecnologia, inovação e resultados para pequenos negócios.</p>
+      </div>
+      <div class="footer__links">
+        <a href="#servicos">Serviços</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#processo">Processo</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <p class="footer__copy">© <span id="year"></span> HFG Soluções. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
